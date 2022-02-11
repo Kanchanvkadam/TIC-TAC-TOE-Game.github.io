@@ -1,9 +1,13 @@
 h1 {
-  color: rgb(55, 0, 255);
+  color: rgb(17, 5, 58);
   font-size: 45px;
+  margin-top: 0px;
 }
 h2{
-	color: rgb(55, 0, 255);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  color: rgb(15, 65, 114);
+  font-size: 20px;
 	
 }
 
@@ -46,27 +50,61 @@ h2{
 
   color: rgb(26, 82, 138);
   font-size: 20px;
+  
+}
+
+
+.player{
+	width: 100%;
+  	text-align: center;
+ 	margin-top: 20px;
 }
 
 #main {
-  background-color: rgb(210, 239, 250);
+  background-color: rgb(224, 241, 247);
   height: 100vh;
+  margin-top: 0px;
+
 }
 
 #ins {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   color: rgb(15, 65, 114);
-  font-size: 17px;
+  font-size: 20px;
+  margin-left: 25px;
 }
 .info {
   width: 30%;
-  height: 130vh;
+  height: 75vh;
   float: left;
   color: #ffffff;
   text-align: center;
+  margin-top: 50px;
 
 }
 .game {
   text-align: center;
+}
+.heading{
+	width: 100%;
+  color: #ffffff;
+  text-align: center;
+ margin-top: 0px;
+}
+.body{
+	margin-top: 0px;
+}
+
+.form__field {
+	font-family: inherit;
+	width: 100%;
+	border: 0;
+	border-bottom: 4px solid gray;
+	outline: 0;
+	font-size: 1.3rem;
+	color: rgb(31, 6, 88);
+	padding: 7px 0;
+	background: transparent;
+	transition: border-color 0.2s;
 }

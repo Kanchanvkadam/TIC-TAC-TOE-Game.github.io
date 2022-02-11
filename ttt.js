@@ -1,3 +1,16 @@
+const playerName= {first:'Player 1',second:"Player 2"}
+function changeName(){
+	const firstPlayer =  document.getElementById("firstPlayer").value;
+	console.log(firstPlayer);
+	playerName.first =`${firstPlayer}`;
+
+	document.getElementById("ply1").innerHTML=`${firstPlayer}`;
+	const secondPlayer =  document.getElementById("secondPlayer").value;
+	console.log(secondPlayer);
+	playerName.second =`${secondPlayer}`;
+	document.getElementById("ply2").innerHTML=`${secondPlayer}`
+}
+
 function myfunc() {
 
 
@@ -16,19 +29,19 @@ function myfunc() {
     if ((b1 == 'x' || b1 == 'X') && (b2 == 'x' ||
 		b2 == 'X') && (b3 == 'x' || b3 == 'X')) {
 		document.getElementById('print')
-			.innerHTML = "Player 1 won";
+			.innerHTML =`${playerName.first} Won the previous game `;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Congratulations! Player1 wins');
+		window.alert( `Congratulations! ${playerName.first} wins`);
 	}
 	else if ((b1 == 'x' || b1 == 'X') && (b4 == 'x' ||
 		b4 == 'X') && (b7 == 'x' || b7 == 'X')) {
 		document.getElementById('print')
-			.innerHTML = "Player 1 won";
+			.innerHTML = `${playerName.first} Won the previous game `;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b5").disabled = true;
@@ -36,79 +49,79 @@ function myfunc() {
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
 
-		window.alert('Congratulations! Player1 wins');
+		window.alert(`Congratulations! ${playerName.first} wins`);
 	}
 	else if ((b7 == 'x' || b7 == 'X') && (b8 == 'x' ||
 		b8 == 'X') && (b9 == 'x' || b9 == 'X')) {
 		document.getElementById('print')
-			.innerHTML = "Player 1 won";
+			.innerHTML = `${playerName.first} Won the previous game `;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
-		window.alert('Congratulations! Player1 wins');
+		window.alert(`Congratulations! ${playerName.first} wins`);
 	}
 	else if ((b3 == 'x' || b3 == 'X') && (b6 == 'x' ||
 		b6 == 'X') && (b9 == 'x' || b9 == 'X')) {
 		document.getElementById('print')
-			.innerHTML = "Player 1 won";
+			.innerHTML = `${playerName.first} Won the previous game `;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		window.alert('Congratulations! Player1 wins');
+		window.alert(`Congratulations! ${playerName.first} wins`);
 	}
 	else if ((b1 == 'x' || b1 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b9 == 'x' || b9 == 'X')) {
 		document.getElementById('print')
-			.innerHTML = "Player 1 won";
+			.innerHTML = `${playerName.first} Won the previous game `;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		window.alert('Congratulations! Player1 wins');
+		window.alert(`Congratulations! ${playerName.first} wins`);
 	}
 	else if ((b3 == 'x' || b3 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b7 == 'x' || b7 == 'X')) {
 		document.getElementById('print')
-			.innerHTML = "Player 1 won";
+			.innerHTML = `${playerName.first} Won the previous game `;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Congratulations! Player1 wins');
+		window.alert(`Congratulations! ${playerName.first} wins`);
 	}
 	else if ((b2 == 'x' || b2 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b8 == 'x' || b8 == 'X')) {
 		document.getElementById('print')
-			.innerHTML = "Player 1 won";
+			.innerHTML = `${playerName.first} Won the previous game `;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Congratulations! Player1 wins');
+		window.alert(`Congratulations! ${playerName.first} wins`);
 	}
 	else if ((b4 == 'x' || b4 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b6 == 'x' || b6 == 'X')) {
 		document.getElementById('print')
-			.innerHTML = "Player 1 won";
+			.innerHTML = `${playerName.first} Won the previous game `;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Congratulations! Player1 wins');
+		window.alert(`Congratulations! ${playerName.first} wins`);
 	}
 
 
@@ -116,98 +129,98 @@ function myfunc() {
     else if ((b1 == '0' || b1 == '0') && (b2 == '0' ||
 		b2 == '0') && (b3 == '0' || b3 == '0')) {
 		document.getElementById('print')
-			.innerHTML = "Player 2 won";
+			.innerHTML = `${playerName.second} Won`;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Congratulations! Player2 wins');
+		window.alert(`Congratulations! ${playerName.second} wins`);
 	}
 	else if ((b1 == '0' || b1 == '0') && (b4 == '0' ||
 		b4 == '0') && (b7 == '0' || b7 == '0')) {
 		document.getElementById('print')
-			.innerHTML = "Player 2 won";
+			.innerHTML = `${playerName.second} Won the previous game `;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Congratulations! Player2 wins');
+		window.alert(`Congratulations! ${playerName.second} wins`);
 	}
 	else if ((b7 == '0' || b7 == '0') && (b8 == '0' ||
 		b8 == '0') && (b9 == '0' || b9 == '0')) {
 		document.getElementById('print')
-			.innerHTML = "Player 2 won";
+			.innerHTML = `${playerName.second} Won the previous game `;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
-		window.alert('Congratulations! Player2 wins');
+		window.alert(`Congratulations! ${playerName.second} wins`);
 	}
 	else if ((b3 == '0' || b3 == '0') && (b6 == '0' ||
 		b6 == '0') && (b9 == '0' || b9 == '0')) {
 		document.getElementById('print')
-			.innerHTML = "Player 2 won";
+			.innerHTML = `${playerName.second} Won the previous game `;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		window.alert('Congratulations! Player2 wins');
+		window.alert(`Congratulations! ${playerName.second} wins`);
 	}
 	else if ((b1 == '0' || b1 == '0') && (b5 == '0' ||
 		b5 == '0') && (b9 == '0' || b9 == '0')) {
 		document.getElementById('print')
-			.innerHTML = "Player 2 won";
+			.innerHTML = `${playerName.second} Won the previous game `;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		window.alert('Congratulations! Player2 wins');
+		window.alert(`Congratulations! ${playerName.second} wins`);
 	}
 	else if ((b3 == '0' || b3 == '0') && (b5 == '0' ||
 		b5 == '0') && (b7 == '0' || b7 == '0')) {
 		document.getElementById('print')
-			.innerHTML = "Player 2 won";
+			.innerHTML = `${playerName.second} Won the previous game `;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Congratulations! Player2 wins');
+		window.alert(`Congratulations! ${playerName.second} wins`);
 	}
 	else if ((b2 == '0' || b2 == '0') && (b5 == '0' ||
 		b5 == '0') && (b8 == '0' || b8 == '0')) {
 		document.getElementById('print')
-			.innerHTML = "Player 2 won";
+			.innerHTML = `${playerName.second} Won the previous game `;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Congratulations! Player2 wins');
+		window.alert(`Congratulations! ${playerName.second} wins`);
 	}
 	else if ((b4 == '0' || b4 == '0') && (b5 == '0' ||
 		b5 == '0') && (b6 == '0' || b6 == '0')) {
 		document.getElementById('print')
-			.innerHTML = "Player 2 won";
+			.innerHTML = `${playerName.second} Won the previous game `;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Congratulations! Player2 wins');
+		window.alert(`Congratulations! ${playerName.second} wins`);
 	}
 
 	else if ((b1 == 'X' || b1 == '0') && (b2 == 'X'
@@ -225,11 +238,11 @@ function myfunc() {
 		
 		if (flag == 1) {
 			document.getElementById('print')
-				.innerHTML = "Player 1 Turn";
+				.innerHTML = `${playerName.first} turn`;
 		}
 		else {
 			document.getElementById('print')
-				.innerHTML = "Player 2 Turn";
+				.innerHTML = `${playerName.second} turn`;
 		}
 	}
 }
@@ -364,6 +377,5 @@ function myfunc_11() {
 		flag = 1;
 	}
 }
-
 
 
