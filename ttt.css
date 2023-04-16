@@ -27,6 +27,13 @@ h2{
   border-radius: 6px;
   font-size: 30px;
   text-align: center;
+  margin-left: 25px
+} 
+
+#ply1,
+#ply2,
+#print{
+  text-transform: capitalize;
 }
 
 #but {
@@ -44,6 +51,7 @@ h2{
   cursor: pointer;
   text-align: center;
 }
+
 
 #print {
   font-family: Verdana, Geneva, Tahoma, sans-serif;

@@ -1,12 +1,13 @@
 const playerName= {first:'Player 1',second:"Player 2"}
 function changeName(){
 	const firstPlayer =  document.getElementById("firstPlayer").value;
-	console.log(firstPlayer);
+	//console.log(firstPlayer);
 	playerName.first =`${firstPlayer}`;
 
 	document.getElementById("ply1").innerHTML=`${firstPlayer}`;
+	document.getElementById('print').innerHTML = `${playerName.first} turn`;
 	const secondPlayer =  document.getElementById("secondPlayer").value;
-	console.log(secondPlayer);
+	//console.log(secondPlayer);
 	playerName.second =`${secondPlayer}`;
 	document.getElementById("ply2").innerHTML=`${secondPlayer}`
 }
@@ -243,7 +244,6 @@ function myfunc() {
 			window.alert('Draw!');
 	}
 	else {
-
 		
 		if (flag == 1) {
 			document.getElementById('print')
